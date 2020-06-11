@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/a5/dd/e7/a5dde7111adbd0587f5818c25fa1c5b4.jpg");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align:center;
+
+}
+
+.day {
+    display: table-cell;
+    padding: 10px;
+    margin: 20px;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+    width: calc(100% / 6); 
+
+}
+
+.city {
+    margin-top: 250px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: hotpink;
+}
+
+.desc{
+  text-transform:capitalize;
+}
